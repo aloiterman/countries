@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title>Europe Page</title>
   <h1>Select a country to learn it's capital</h1>
-  <p>England</p>
+  <p id ="Cap">England</p>
+    <button onclick="London()">Capital</button>
   <p>Belgium</p>
+
+    <script>
+        function London(){
+        document.getElementById("Cap").innerHTML = "London"
+        }
+    </script>
 </head>
 <body>
 
